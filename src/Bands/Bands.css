@@ -1,0 +1,15 @@
+.band-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: blue;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    width: 30%;
+}

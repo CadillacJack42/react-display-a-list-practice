@@ -1,6 +1,7 @@
 import React from 'react';
+import './Bands.css';
 
 export default function Band(props) {
 
-  return <p>{props.bandName}</p>;
+  return <p className='band-name name'>{props.bandName}</p>;
 }
