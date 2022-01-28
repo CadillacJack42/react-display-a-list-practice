@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Member(props) {
-  console.log(props);
   return <div>
     <h3>{props.member.name}</h3>
     <ul>

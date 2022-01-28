@@ -1,0 +1,22 @@
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+.description-header {
+    font-family: cursive;
+    color: darkgrey;
+}
+
+.description-proper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(33, 57, 33);
+    color: whitesmoke;
+}

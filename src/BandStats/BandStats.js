@@ -1,11 +1,12 @@
 import Stats from './Stats';
+import './Stats.css';
 
 
 export default function BandStats({ bands }) {
   
   return (
-    <div>
-      <h2>Band Descriptions</h2>
+    <div className='description-container'>
+      <h2 className='description-header'>Band Descriptions</h2>
       {bands.map((stat, i) => 
         <Stats key={stat + i} stats={stat}/>
       )}

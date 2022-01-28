@@ -1,5 +1,6 @@
 import React from 'react';
 import Member from './Member';
+import './Member.css';
 
 export default function Members(props) {
 //   console.log(props.members);

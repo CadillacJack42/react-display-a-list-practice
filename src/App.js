@@ -7,7 +7,7 @@ import BandStats from './BandStats/BandStats';
 import { nestedBandObjects } from './array-three';
 import AlbumStats from './AlbumStats/AlbumStats';
 import { nestedArrayBandObjects } from './array-four';
-import Members from './AlbumStats/BandMembers/Members';
+import Members from './BandMembers/Members';
 
 function App() {
   // console.log(bandObjects);
