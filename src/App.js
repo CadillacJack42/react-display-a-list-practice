@@ -1,11 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 // import your arrays here
+import { bands } from './array-one';
+import Bands from './Bands/Bands';
+import { bandObjects } from './array-two';
+import BandStats from './BandStats/BandStats';
+import { nestedBandObjects } from './array-three';
+import AlbumStats from './AlbumStats/AlbumStats';
+import { nestedArrayBandObjects } from './array-four';
+import Members from './BandMembers/Members';
 
 function App() {
+  // console.log(bandObjects);
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+      <Bands bands={bands} />
+      <BandStats bands={bandObjects} />
+      <AlbumStats stats={nestedBandObjects} />
+      <Members members={nestedArrayBandObjects}/>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.band-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+    color: blue;
+    margin: 10px auto;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(89, 197, 201);
+    width: 30%;
+    font-weight: bolder;
+}
+
+.names-container {
+    background-color: cornflowerblue;
+}
